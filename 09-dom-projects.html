@@ -8,10 +8,19 @@
     <button onclick="
         subscribe();
     " class="js-subscribe-button">
-        Subscribe
+    Subscribe
     </button>
 
+    <p>Amazon Shipping Calculator</p>
+    <input placeholder="Cost of Order" class="js-cost-input">
+    <button onclick="
+        calculateTotal();
+    ">Calculate</button>
+    
     <script>
+        function calculateTotal () {
+            const inputElement = document.querySelector('.js-cost-input');
+        }
         function subscribe() {
             const buttonElement = document.querySelector('.js-subscribe-button');
     
